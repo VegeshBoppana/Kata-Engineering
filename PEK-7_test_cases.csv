@@ -1,0 +1,18 @@
+ID,Test Description,Pre-conditions,Test Steps,Expected Result,Actual Result,Status
+TC-001,Enable Return Orders from disabled state,"1. User is logged in as a staff member.
+2. Return Orders feature is disabled.","1. Navigate to the Return Order Settings page.
+2. Toggle the "Enable Return Orders" switch to enabled.","1. Return Orders feature is activated.
+2. Return Orders module appears in the main navigation bar.",,
+TC-002,Disable Return Orders from enabled state,"1. User is logged in as a staff member.
+2. Return Orders feature is enabled.","1. Navigate to the Return Order Settings page.
+2. Toggle the "Enable Return Orders" switch to disabled.","1. Return Orders feature is deactivated.
+2. Return Orders module is removed from the main navigation bar.",,
+TC-003,Update Return Order Reference Pattern,"1. User is logged in as a staff member.
+2. Return Orders feature is enabled.","1. Navigate to the Return Order Settings page.
+2. Update the "Return Order Reference Pattern" to "RMA-1234".","1. New reference pattern "RMA-1234" is saved and used for future return orders.",,
+TC-004,Enable editing of completed Return Orders,"1. User is logged in as a staff member.
+2. Return Orders feature is enabled.","1. Navigate to the Return Order Settings page.
+2. Toggle the "Edit Completed Return Orders" switch to enabled.","1. System allows editing of completed return orders.",,
+TC-005,Disable editing of completed Return Orders,"1. User is logged in as a staff member.
+2. Return Orders feature is enabled.","1. Navigate to the Return Order Settings page.
+2. Toggle the "Edit Completed Return Orders" switch to disabled.","1. System disallows editing of completed return orders.",,
