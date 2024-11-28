@@ -1,0 +1,5 @@
+ID,Test Description,Pre-conditions,Test Steps,Expected Result,Actual Result,Status
+TC-001,Enable Return Orders from settings page,User is logged in as a staff member and navigates to the Return Order Settings page.,1. Toggle the "Enable Return Orders" switch to enable.,Return Orders module appears in the main navigation bar and the feature is activated.,,
+TC-002,Enter a valid custom pattern for Return Order Reference IDs,Return Orders feature is enabled and user is on the Return Order Settings page.,1. Enter `RMA-{ref:04d}` in the "Return Order Reference Pattern" text input.,The system saves the custom pattern and uses it for generating unique reference IDs for return orders.,,
+TC-003,Allow editing of completed Return Orders,Return Orders feature is enabled and user is on the Return Order Settings page.,1. Toggle the "Edit Completed Return Orders" switch to allow editing.,The system allows editing of return orders even after they are marked as completed.,,
+TC-004,Access the Return Orders management page,Return Orders feature is enabled.,1. Select the Return Orders module from the main navigation bar.,The Return Orders management page is displayed.,,
