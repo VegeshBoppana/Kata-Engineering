@@ -1,0 +1,12 @@
+ID,Test Description,Pre-conditions,Test Steps,Expected Result,Actual Result,Status
+TC-001,Display all columns in purchase orders list,User is logged in and on the Purchase Orders page,1. Navigate to the Purchase Orders page,All purchase orders are displayed with columns for ID, Supplier, Description, Status, Date, and Items,,
+TC-002,Status of purchase order is valid,User is viewing a purchase order,1. Open any purchase order,The status of the order is one of the valid statuses,,
+TC-003,Create a new purchase order,User is on the Purchase Orders page,1. Click on "New Purchase Order" button
+2. Fill in the required details
+3. Submit the form,A new purchase order is created and listed with the correct details,,
+TC-004,Search purchase orders with filters,User is on the Purchase Orders page,1. Use the search bar or filters to search for specific orders,Only orders matching the search criteria are displayed,,
+TC-005,Download reports in CSV format,User is on the Purchase Orders page,1. Select to download reports
+2. Choose CSV format,A CSV file of the report is downloaded,,
+TC-006,Status badge color coding,User is on the Purchase Orders page,1. View the list of purchase orders,Each status is displayed with the correct color-coded badge,,
+TC-007,Navigate to Purchase Orders from dropdown,User is on the main dashboard,1. Click on the "Buy" dropdown
+2. Select "Purchase Orders",The Purchase Orders page is displayed,,
